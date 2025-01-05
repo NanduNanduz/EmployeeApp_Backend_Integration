@@ -1,0 +1,18 @@
+{
+  "name": "employeeapp_backend_integration",
+  "version": "1.0.0",
+  "description": "Employee App - Completed with frontend in embeddedjs and backend in Node/Express/MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nandana Babu",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.3",
+    "morgan": "^1.10.0"
+  }
+}
