@@ -6,6 +6,13 @@ router.use(express.json());
 
 router.use(express.urlencoded({extended: true}));
 
+const employeeModel = require('../model/employeeData');
+
+function employeeroutes(nav){
+
+
+return router;
+}
 
 
 
@@ -15,5 +22,4 @@ router.use(express.urlencoded({extended: true}));
 
 
 
-
-module.exports = router;
+module.exports = employeeroutes;
