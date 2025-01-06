@@ -4,7 +4,8 @@ const mongoose = require('mongoose');//import mongoose
 const employeeSchema = mongoose.Schema({
     employeeName : String,
     employeeDesignation :String,
-    employeeLocation : String
+    employeeLocation : String,
+    employeeSalary : Number
 })
 
 const employeeData = mongoose.model('employee', employeeSchema);//mapping schema to the collection
