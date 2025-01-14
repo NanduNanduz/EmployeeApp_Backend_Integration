@@ -7,7 +7,7 @@ app.use(morgan('dev'))// Morgan middleware - 3rd party
 require('dotenv').config();//import dotenv
 require('./db/connection');
 
-const nav = [{link:'/employees',name: 'Home'},{link:'/employees/addEmployee',name:'Add Employees'}];
+const nav = [{link:'/employees',name: 'Home'},{link:'/employees/employeeForm',name:'Add Employees'}];
 
 const employeeRoutes = require('./routes/employeeRoutes')(nav)//import employeeRoutes file
 app.use('/employees',employeeRoutes)// Redirect all "/employees" requests to employeeRoutes
