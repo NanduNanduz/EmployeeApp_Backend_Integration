@@ -1,94 +1,78 @@
 body {
   background-color: bisque;
-  background-image: url("https://img.freepik.com/free-vector/gradient-glassmorphism_23-2149456191.jpg?semt=ais_hybrid");
+  background-image: url("https://uprighthc.com/wp-content/uploads/2020/05/Why-Background-Check-Services-Are-Important.jpg");
   background-size: cover;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
 }
 .navbar {
-  background-color: rgb(172, 190, 248) !important;
+  background-color: rgb(143, 127, 110, 0.8)!important;
 
 }
 
 h1 {
   color: brown;
 }
-p {
-  background-color: rgb(89, 162, 211);
-}
+
 .card {
-  background-color: rgb(206, 173, 241);
+  background-color: rgb(236, 182, 120, 0.6);
+  text-align: center;
 }
 
 form {
+  
   padding: 5%;
-  border: 2px solid rgb(34, 14, 56);
-  background-color: rgb(187, 144, 236);
+  border: 2px solid  rgba(109, 75, 35, 0.5);
+  background-color:  rgb(236, 182, 120, 0.5);
   margin-left: 20%;
   margin-right: 20%;
 }
 
-.update-btn {
-  background-color: rgb(200, 126, 236) !important;
-  border: 2px solid rgb(53, 32, 63);
+.btn-update {
+  background-color:  rgb(143, 127, 110, 0.5) !important;
+  border: 2px solid rgba(129, 83, 33, 0.5);
   border-radius: 20px;
 }
-.update-btn:hover {
-  background-color: rgb(200, 126, 236);
-  border: 2px solid rgb(53, 32, 63);
-  border-radius: 20px;
-  transform: scale(1.1);
-}
-.delete-btn {
-  background-color: rgb(89, 162, 211);
-  border: 2px solid rgb(25, 42, 54);
-  border-radius: 20px;
-}
-.delete-btn:hover {
-  background-color: rgb(89, 162, 211);
-  border: 2px solid rgb(25, 42, 54);
+.btn-update:hover {
+  background-color: rgba(129, 83, 33, 0.5);
+  border: 2px solid rgba(66, 39, 10, 0.5);
   border-radius: 20px;
   transform: scale(1.1);
 }
-.modal-body {
-  background-color: rgb(89, 162, 211);
-}
-.modal-header {
-  background-color: rgb(89, 162, 211);
-}
-.modal-footer {
-  background-color: rgb(89, 162, 211);
-}
-.close-btn {
-  background-color: rgb(75, 160, 218);
-  border: 2px solid rgb(25, 42, 54);
+.btn-delete {
+  background-color:  rgba(119, 69, 15, 0.4);
+  border: 2px solid  rgba(61, 34, 5, 0.4);
   border-radius: 20px;
 }
-.save-btn {
-  background-color: rgb(200, 126, 236);
-  border: 2px solid rgb(53, 32, 63);
-  border-radius: 20px;
-}
-.close-btn:hover {
-  background-color: rgb(75, 160, 218);
-  border: 2px solid rgb(25, 42, 54);
+.btn-delete:hover {
+  background-color: rgba(126, 83, 37, 0.5);
+  border: 2px solid  rgba(61, 34, 5, 0.4);
   border-radius: 20px;
   transform: scale(1.1);
 }
-.save-btn:hover {
-  background-color: rgb(200, 126, 236);
-  border: 2px solid rgb(53, 32, 63);
-  border-radius: 20px;
-  transform: scale(1.1);
+
+ .btn-add{
+  margin-left: 40%;
+  background-color:  rgba(83, 49, 6, 0.5);
+ }
+
+ .btn-add:hover{
+  background-color:   rgba(114, 69, 14, 0.5);
+
+ }
+
+.btn-updateform{
+  margin-left: 40%;
+
+  background-color:  rgba(80, 60, 35, 0.5);
+
 }
-.add-btn {
-  background-color: rgb(75, 160, 218);
-  border: 2px solid rgb(25, 42, 54);
-  border-radius: 20px;
+
+.btn-updateform:hover{
+  background-color: rgba(114, 69, 14, 0.5);
+
 }
-.add-btn:hover {
-  background-color: rgb(75, 160, 218);
-  border: 2px solid rgb(25, 42, 54);
-  border-radius: 20px;
-  transform: scale(1.1);
-}
+
+
+
+
